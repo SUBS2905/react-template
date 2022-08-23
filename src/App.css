@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body::-webkit-scrollbar{
+  display:none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Containers */
+.white-container{
+  background-color: white;
+  color: black;
+  padding: 5% 10%;
+}
+.black-container{
+  background-color: black;
+  color: white;
+  padding: 5% 10%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* Navbar */
+.nav-container{
+  background-color: black;
+}
+.navbar-brand, .nav-link{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* First Section */
+#section-1{
+  clip-path: polygon(0 1%, 100% 0%, 100% 90%, 0% 100%);
+}
+#section-1 h1{
+  font-family: serif;
+  font-size: 4rem;
+}
+#section-1 p{
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.image{
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Second Section */
+#section-2{
+  clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0 90%);
+}
+#section-2 h1{
+  font-size: 4rem;
+}
+#section-2 p{
+  font-weight: bold;
+}
+
+/* Third Section */
+
+
+/* Footer */
+.footer{
+  background-color: black;
+  color: white;
+  padding: 1% 0;
+}
+.footer-flex{
+  display: flex;
+  justify-content:center;
+}
+.footer-item{
+  padding: 0 1%;
+}
+.fa-arrow-up{
+  margin-left: 90%;
 }
