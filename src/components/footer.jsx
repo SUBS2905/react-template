@@ -9,7 +9,7 @@ function Footer(){
                 <div className="footer-item">WEATHER</div>
                 <div className="footer-item">FUTURE</div>
             </div>
-                <i class="fa fa-arrow-up fa-2x"></i>
+                <a href="#navbar"><i class="fa fa-arrow-up fa-2x"></i></a>
         </div>
     );
 }

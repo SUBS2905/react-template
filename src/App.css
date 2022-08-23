@@ -55,7 +55,27 @@ body::-webkit-scrollbar{
 }
 
 /* Third Section */
-
+.card{
+  border: none;
+  text-align: center;
+}
+.card-body{
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 2rem;
+  width: 18rem;
+  padding: 15% 10%;
+}
+.card-body img{
+  width: 100px;
+  border-radius: 100%;
+  margin-bottom: 1rem;
+}
+#section-3{
+  display: flex;
+  justify-content: center;
+}
 
 /* Footer */
 .footer{
@@ -72,4 +92,5 @@ body::-webkit-scrollbar{
 }
 .fa-arrow-up{
   margin-left: 90%;
+  color: white;
 }
