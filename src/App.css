@@ -19,12 +19,72 @@ body::-webkit-scrollbar{
   padding: 5% 10%;
 }
 
+/* Components */
+
 /* Navbar */
 .nav-container{
   background-color: black;
 }
 .navbar-brand, .nav-link{
   color: white;
+}
+
+/* Footer */
+.footer{
+  background-color: black;
+  color: white;
+  padding: 1% 0;
+}
+.footer-flex{
+  display: flex;
+  justify-content:center;
+}
+.footer-item{
+  padding: 0 1%;
+}
+.fa-arrow-up{
+  margin-left: 90%;
+  color: white;
+}
+
+/* Card */
+.card{
+  border: none;
+  text-align: center;
+}
+.card-body{
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 2rem;
+  width: 18rem;
+  padding: 15% 10%;
+}
+.card-body img{
+  width: 100px;
+  border-radius: 100%;
+  margin-bottom: 1rem;
+}
+
+/* Carousel Item */
+:root{
+  --Orange: #fe8900;
+  --Red: #f66465;
+  --Blue: #63d5e7
+}
+.carousel-card{
+  text-align: center;
+  width: 60%;
+  padding: 2% 5%;
+  border-radius: 1rem;
+  color: white;
+}
+.carousel-card:hover{
+  box-shadow: 10px 10px 20px gray;
+  transition: 0.3s;
+}
+.carousel-card h3{
+  padding: 5% 0;
 }
 
 /* First Section */
@@ -55,42 +115,34 @@ body::-webkit-scrollbar{
 }
 
 /* Third Section */
-.card{
-  border: none;
-  text-align: center;
-}
-.card-body{
-  background-color: black;
-  color: white;
-  text-align: center;
-  border-radius: 2rem;
-  width: 18rem;
-  padding: 15% 10%;
-}
-.card-body img{
-  width: 100px;
-  border-radius: 100%;
-  margin-bottom: 1rem;
-}
+
 #section-3{
   display: flex;
   justify-content: center;
 }
 
-/* Footer */
-.footer{
-  background-color: black;
-  color: white;
-  padding: 1% 0;
+/* Fourth Section */
+.carousel{
+  background-color: white;
+  color: black;
+  border-radius: 1rem;
+  margin: auto;
+  padding: 1% 5%;
+  width: 70%;
 }
-.footer-flex{
+
+.carousel-body{
   display: flex;
-  justify-content:center;
+  justify-content: space-around;
+  padding: 5% 0;
 }
-.footer-item{
-  padding: 0 1%;
+.carousel-control{
+  display: flex;
+  justify-content: flex-end;
 }
-.fa-arrow-up{
-  margin-left: 90%;
-  color: white;
+.carousel-control button{
+  border: none;
+  background-color: white;
+  padding: 5px;
 }
+
