@@ -1,22 +1,33 @@
 import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
 import Carousel from "../components/carousel";
 
-function Section4(){
-    return(
-        <section className="black-container" id="section-4">
-            <div className="carousel">
-                <h1>Carousel</h1>
-                <div className="carousel-body row">
-                    <Carousel colour="Orange"/>
-                    <Carousel colour="Blue"/>
-                </div>
-                <div className="carousel-control">
-                    <button><i className="fa fa-chevron-left fa-2x" ></i></button>
-                    <button><i className="fa fa-chevron-right fa-2x" ></i></button>
-                </div>
-            </div>
-        </section>
-    );
+import "swiper/css";
+
+function Section4() {
+  return (
+    <section className="black-container" id="section-4">
+      <div className="carousel">
+        <h1>Carousel</h1>
+        <Swiper
+        spaceBetween={5}
+        slidesPerView={2}
+        onSlideChange={() => console.log("slide change")}
+        onSwiper={(swiper) => console.log(swiper)}
+      >
+        <SwiperSlide id="carousel1">
+          <Carousel colour="Orange" />
+        </SwiperSlide>
+        <SwiperSlide id="carousel2">
+          <Carousel colour="Blue" />
+        </SwiperSlide>
+        <SwiperSlide id="carousel3">
+          <Carousel colour="Red" />
+        </SwiperSlide>
+      </Swiper>
+      </div>
+    </section>
+  );
 }
 
 export default Section4;

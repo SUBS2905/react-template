@@ -3,7 +3,7 @@ import React from "react";
 function CarouselItem(props) {
   return (
     <div
-      className="carousel-card col-4"
+      className="carousel-card"
       style={{
         backgroundColor: "var(--" + props.colour + ")"
       }}

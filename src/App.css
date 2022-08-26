@@ -74,8 +74,9 @@ body::-webkit-scrollbar{
 }
 .carousel-card{
   text-align: center;
-  width: 60%;
-  padding: 2% 5%;
+  width: 70%;
+  padding: 5% 5%;
+  margin: 10% 0;
   border-radius: 1rem;
   color: white;
 }
@@ -127,22 +128,8 @@ body::-webkit-scrollbar{
   color: black;
   border-radius: 1rem;
   margin: auto;
-  padding: 1% 5%;
+  padding: 2% 5%;
   width: 70%;
 }
 
-.carousel-body{
-  display: flex;
-  justify-content: space-around;
-  padding: 5% 0;
-}
-.carousel-control{
-  display: flex;
-  justify-content: flex-end;
-}
-.carousel-control button{
-  border: none;
-  background-color: white;
-  padding: 5px;
-}
 
