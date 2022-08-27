@@ -4,7 +4,8 @@ function Header(){
     return(
         <div className="nav-container" id="navbar">
             <nav className="navbar navbar-expand-lg">
-                <a className="navbar-brand" href="#">React Template</a>
+                <img className="navbar-image" src="logo192.png" alt=""></img>
+                <span className="navbar-brand">React Template</span>
 
                 <button className="navbar-toggler all_btn navbar-dark" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
                     <span className="navbar-toggler-icon"></span>

@@ -4,10 +4,10 @@ function Footer(){
     return(
         <div className="footer">
             <div className="footer-flex">
-                <div className="footer-item">NEWS</div>
-                <div className="footer-item">SPORT</div>
-                <div className="footer-item">WEATHER</div>
-                <div className="footer-item">FUTURE</div>
+                <a className="footer-item" href="#">NEWS</a>
+                <a className="footer-item" href="#">SPORT</a>
+                <a className="footer-item" href="#">WEATHER</a>
+                <a className="footer-item" href="#">FUTURE</a>
             </div>
                 <a href="#navbar"><i class="fa fa-arrow-up fa-2x"></i></a>
         </div>
