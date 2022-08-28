@@ -9,7 +9,7 @@ function Footer(){
                 <a className="footer-item" href="#section-3">WEATHER</a>
                 <a className="footer-item" href="#section-4">FUTURE</a>
             </div>
-                <a href="#navbar"><i class="fa fa-arrow-up fa-2x"></i></a>
+                <a href="#navbar" className="to-top"><i class="fa fa-arrow-up fa-2x"></i></a>
         </div>
     );
 }
