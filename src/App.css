@@ -61,6 +61,7 @@ body::-webkit-scrollbar{
 .card{
   border: none;
   text-align: center;
+  margin-bottom: 3%;
 }
 .card-body{
   background-color: black;
@@ -99,9 +100,7 @@ body::-webkit-scrollbar{
 }
 
 /* First Section */
-#section-1{
-  clip-path: polygon(0 1%, 100% 0%, 100% 90%, 0% 100%);
-}
+
 #section-1 h1{
   font-family: serif;
   font-size: 4rem;
@@ -115,9 +114,7 @@ body::-webkit-scrollbar{
 }
 
 /* Second Section */
-#section-2{
-  clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0 90%);
-}
+
 #section-2 h1{
   font-size: 4rem;
 }
@@ -179,4 +176,15 @@ body::-webkit-scrollbar{
 }
 .item7 {
   grid-column: 3 / 4;
+}
+
+@media only screen and (min-width: 768px) {
+  
+  /* For Desktop */
+  #section-1{
+    clip-path: polygon(0 1%, 100% 0%, 100% 90%, 0% 100%);
+  }
+  #section-2{
+    clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0 90%);
+  }
 }

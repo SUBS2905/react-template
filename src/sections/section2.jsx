@@ -2,7 +2,7 @@ import React from "react";
 
 function Section2(){
     return(
-        <section className="black-container" id="section-2">
+        <section className="black-container sec2" id="section-2">
             <div className="row">
                 <div className="col-lg-6 col-md-0 image"></div>
                 <div className="col-lg-6 col-md-12 text">
